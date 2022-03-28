@@ -1,4 +1,4 @@
-package cntt61.t61134631;
+package cntt61.61130493;
 
 import android.os.Bundle;
 import android.app.Activity;
@@ -13,7 +13,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        final String arr[]={"Tèo","Tý","Bin","Bo"};
+        final String arr[]={"Hai","Ba","Tư","Năm"};
         ListView lv=(ListView) findViewById(R.id.lvperson);
         ArrayAdapter<String>adapter=new ArrayAdapter<String>
                 (this, android.R.layout.simple_list_item_1, arr);
